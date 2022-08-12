@@ -2,3 +2,6 @@ node_modules/
 .next/
 .env
 .git
+.vscode
+package-lock.json
+.gitignore
