@@ -18,7 +18,7 @@ const NavBar = ({isNavOpen, setIsNavOpen}: NavProps) => {
       <div className='flex flex-col'>
         <NavItemSM href='/'>Home</NavItemSM>
         <NavItemSM href='/Blog'>Blog</NavItemSM>
-        <NavItemSM href='/Roadmap'>Roadmap</NavItemSM>
+        <NavItemSM href='/Courses'>Courses</NavItemSM>
         <NavItemSM href='/About'>About</NavItemSM>
       </div>
       <div className="flex absolute bottom-28 items-center justify-center">
@@ -39,11 +39,11 @@ const NavBar = ({isNavOpen, setIsNavOpen}: NavProps) => {
     <div className="md:flex hidden items-center h-full w-full justify-end mx-3">
       <NavItemLG href='/'>Home</NavItemLG>
       <NavItemLG href='/Blog'>Blog</NavItemLG>
-      <NavItemLG href='/Roadmap'>Roadmap</NavItemLG>
+      <NavItemLG href='/Courses'>Courses</NavItemLG>
       <NavItemLG href='/About'>About</NavItemLG>
       <div className='h-1 w-4'/>
-      <Link href="/Courses">
-        <button className='rounded-md font-bold text-white bg-purple-600 px-5 py-3 hover:text-black hover:outline outline-black outline-[1.5px] hover:bg-white dark:hover:text-white dark:outline-white dark:hover:bg-black transition'>Courses</button>
+      <Link href="/CodePark">
+        <button className='rounded-md font-bold text-white bg-purple-600 px-5 py-3 hover:text-black hover:outline outline-black outline-[1.5px] hover:bg-white dark:hover:text-white dark:outline-white dark:hover:bg-black transition'>CodePark</button>
       </Link>
       <>
         <a onClick={() => {
